@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body {
+    background: #f2f2f2;
+}
+.Nav {
+    background: #1b1b1b;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    background-color: inherit;
+    border-color: #1b1b1b;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+
+.clickable {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+   
+}
+
+
+.container-out{
+   padding-top:2%;
+    align-items: center;
+    display: flex;
+  justify-content: center;
+ 
+}
+.data-container{
+    border: 1px solid black;
+    display: flex;
+    width: 1250px;
+    height: 80px;
+    background-color: rgb(101, 105, 104);
+    /* justify-content: space-between; */
+    
+}
+.info{
+   display: flex;
+   width: 1250px;
+    height: 80px;
+    justify-content: space-between;
+}
+.blue{
+    width:30px;
+    height:30px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+.blue-div ,.red-div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.red{
+    width:30px;
+    height:30px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+.text{
+    color:black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.gyan-class{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.gyan{
+    min-height: 200px;
+    width:1250px;
+    border:1px solid #1b1b1b;
+    /* background-color: #1b1b1b; */
+
+}
+.comp{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 400px 0 100px ;
+    justify-content: space-between;
+}
+p{  color: black;
+    padding: 20px;
+}

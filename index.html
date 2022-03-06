@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>sort_visual</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="Nav">
+        <div>
+            <button class="btn" onclick="generate()">Generate array</button>
+        </div>
+        <button class="clickable" id="Sort" onclick="bubbleSort()">Bubble Sort</button>
+        <button class="clickable" id="Sort" onclick="selectionSort()">Selection Sort</button>
+        <button class="clickable" id="Sort" onclick="insertionSort()">Insertion Sort</button>
+        <!-- <div class="clickable" id="mergeSort" onclick="mergeSort()">Merge Sort</div>
+        <div class="clickable" id="quickSort">Quick Sort</div> -->
+        <div class="btn" onclick="chk()">Stop</div>
+
+    </nav>
+    <div class="info">
+        <div class="blue-div">
+            <div class="blue"></div>
+            <div class="text">Movement of Iterator</div>
+        </div>
+        <div class="red-div">
+            <div class="red"></div>
+            <div class="text">Swapping of elements</div>
+        </div>
+    </div>
+    <div class="container-out">
+        <section class="data-container" id="ctr"></section>
+    </div>
+    <section class="gyan-class">
+        <div class="gyan">
+            <p class="para" id="para">A Sorting Algorithm is used to rearrange a given array or list elements according
+                to a comparison operator on the elements. The comparison operator is used to decide the new order of
+                element in the respective data structure.</p>
+            <div class="comp">
+                <div clas="tc" id="tc" style="color:black;"></div>
+                <div class="sc" id="sc" style="color:black;"></div>
+            </div>
+            <div class="comp">
+                <div clas="tc" id="in" style="color:black;"></div>
+                <div class="sc" id="st" style="color:black;"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
