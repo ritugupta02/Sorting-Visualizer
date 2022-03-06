@@ -10,15 +10,11 @@ body {
     background: #f2f2f2;
 }
 .Nav {
-    background: #1b1b1b;
     width: 100%;
-    align-items: center;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
+    height: auto;
     
 }
-.btn{
+/* .btn{
     background-color: inherit;
     border-color: #1b1b1b;
     color: white;
@@ -29,10 +25,10 @@ body {
     text-align: center;
     cursor: pointer;
    
-}
+} */
 
 
-.clickable {
+/* .clickable {
     color: white;
     text-decoration: none;
     line-height: 50px;
@@ -43,7 +39,7 @@ body {
     background-color: inherit;
     border: none;
    
-}
+} */
 
 
 .container-out{
@@ -118,4 +114,14 @@ body {
 }
 p{  color: black;
     padding: 20px;
+}
+
+
+/* updated navbar */
+.nav-link:hover{
+    background-color: rgba(0, 255, 200, 0.753);
+}
+
+.stop-btn:hover{
+    background-color: rgb(247, 46, 46);
 }
